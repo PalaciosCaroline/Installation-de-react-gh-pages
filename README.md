@@ -105,9 +105,7 @@ At this point, the `gh-pages` npm package is installed on your computer and the 
 
 1. Open the `package.json` file in a text editor.
    
-    ```shell
-    $ vi package.json
-    ```
+    package.json
 
     > In this tutorial, the text editor I'll be using is [vi](https://www.vim.org/). You can use any text editor you want; for example, [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -128,10 +126,8 @@ At this point, the React app's `package.json` file includes a property named `ho
 
 1. Open the `package.json` file in a text editor (if it isn't already open in one).
    
-    ```shell
-    $ vi package.json
-    ```
-
+    package.json
+  
 2. Add a `predeploy` property and a `deploy` property to the `scripts` object:
 
     ```diff
